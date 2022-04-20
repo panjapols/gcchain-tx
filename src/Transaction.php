@@ -175,6 +175,13 @@ class Transaction implements ArrayAccess
 
         if (is_array($txData)) {
             foreach ($txData as $key => $data) {
+		if(substr_compare($data, "GC", 0, 2) == 0)
+                {
+                 $tmp = str_replace('GC', '0x', $data, $count);
+                 $data = $tmp;
+                 echo "\n\n DATA:".$data."\n\n";
+                }
+
                 $this->offsetSet($key, $data);
             }
         } elseif (is_string($txData)) {
