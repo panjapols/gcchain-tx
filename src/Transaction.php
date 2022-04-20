@@ -9,7 +9,7 @@
  * @license MIT
  */
 
-namespace Web3p\EthereumTx;
+namespace panjapols\GCChainTx;
 
 use InvalidArgumentException;
 use RuntimeException;
@@ -23,7 +23,7 @@ use Web3p\EthereumUtil\Util;
  * It's a instance for generating/serializing ethereum transaction.
  * 
  * ```php
- * use Web3p\EthereumTx\Transaction;
+ * use panjapols\GCChainTx\Transaction;
  * 
  * // generate transaction instance with transaction parameters
  * $transaction = new Transaction([
@@ -157,7 +157,7 @@ class Transaction implements ArrayAccess
     /**
      * Ethereum util instance
      * 
-     * @var \Web3p\EthereumUtil\Util
+     * @var \panjapols\GCChainUtil\Util
      */
     protected $util;
 
