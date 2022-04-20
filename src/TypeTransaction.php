@@ -9,7 +9,7 @@
  * @license MIT
  */
 
-namespace Web3p\EthereumTx;
+namespace GCChainTx;
 
 use InvalidArgumentException;
 use RuntimeException;
