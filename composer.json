@@ -1,0 +1,27 @@
+{
+    "name": "pj082022/gcchain-tx",
+    "description": "GCChain transaction library in PHP.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pj082022",
+            "email": ""
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "~7|~8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "panjapols\\GCChainTx\\": "src/"
+        }
+    },
+    "require": {
+        "PHP": "^7.1|^8.0",
+        "web3p/rlp": "0.3.4",
+        "web3p/ethereum-util": "~0.1.3",
+        "kornrunner/keccak": "~1",
+        "simplito/elliptic-php": "~1.0.6"
+    }
+}
