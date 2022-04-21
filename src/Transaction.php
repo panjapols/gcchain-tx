@@ -9,7 +9,7 @@
  * @license MIT
  */
 
-namespace GCChainTx;
+namespace panjapols\GCChainTx;
 
 use InvalidArgumentException;
 use RuntimeException;
